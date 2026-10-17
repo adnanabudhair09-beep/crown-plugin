@@ -1,0 +1,13 @@
+name: CrownPlugin
+version: 1.0.0
+main: dev.crown.CrownPlugin
+api-version: '1.21'
+description: Craftable undroppable crown with permanent effects
+commands:
+  crown:
+    description: Crown admin command
+    usage: /crown <give [player]|reset>
+    permission: crown.admin
+permissions:
+  crown.admin:
+    default: op

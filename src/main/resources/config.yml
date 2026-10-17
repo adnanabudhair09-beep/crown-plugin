@@ -1,0 +1,15 @@
+# Extra hearts while wearing the crown (5 = 5 hearts = +10 health)
+extra-hearts: 5
+
+# Who is limited to crafting the crown once:
+#   SERVER = the crown can be crafted once on the whole server
+#   PLAYER = every player can craft it once
+#   NONE   = unlimited
+craft-limit: SERVER
+
+# Effect levels while wearing the crown. 0 = level I, 1 = level II, -1 = disabled
+effects:
+  speed: 1
+  strength: 1
+  fire-resistance: 0
+  regeneration: 1
